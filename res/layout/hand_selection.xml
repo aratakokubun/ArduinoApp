@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hand_selection"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_none"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/none"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy"
+        		android:background="@color/DemoKitTextWhite" />
+
+            <TextView
+                android:id="@+id/text_none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/none"
+        		android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_hand"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/right"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy"
+        		android:background="@color/DemoKitTextWhite" />
+
+            <TextView
+                android:id="@+id/text_hand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/normal_hand"
+        		android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_edge"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/edge_right"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy"
+        		android:background="@color/DemoKitTextWhite" />
+
+            <TextView
+                android:id="@+id/text_edge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/edge_hand"
+        		android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_shadow"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/shadow_right"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy"
+        		android:background="@color/DemoKitTextWhite" />
+
+            <TextView
+                android:id="@+id/text_shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/shadow_hand"
+        		android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

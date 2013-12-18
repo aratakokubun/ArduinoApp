@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texture_selection"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_chess"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/chess"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy" />
+
+            <TextView
+                android:id="@+id/text_chess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/chess"
+        		android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_sponge"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/sponge"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy" />
+
+            <TextView
+                android:id="@+id/text_sponge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/sponge"
+        		android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_stone"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/stone"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy" />
+
+            <TextView
+                android:id="@+id/text_stone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/stone"
+        		android:textSize="20sp" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_meat_soft"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/meat_fat"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy" />
+
+            <TextView
+                android:id="@+id/text_meat_soft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/meat_soft"
+        		android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_meat_normal"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/meat_normal"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy" />
+
+            <TextView
+                android:id="@+id/text_meat_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/meat_normal"
+        		android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_meat_hard"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/meat_thin"
+        		android:layout_gravity="center"
+        		android:contentDescription="@string/dummy" />
+
+            <TextView
+                android:id="@+id/text_meat_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/meat_hard"
+        		android:textSize="18sp" />
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

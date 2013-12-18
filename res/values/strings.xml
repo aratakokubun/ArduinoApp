@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application details -->
+	<string name="app_name">Visuo-Haptic-softness</string>
+	
+	<!-- Input/Output Controler -->
+	<string name="input">In</string>
+	<string name="output">Out</string>
+	<string name="no_device">Please connect a DemoKit board.</string>
+	<string name="servo1Label">Servo<sub>1</sub></string>
+	<string name="ledLabel">LED<sub>1</sub></string>
+	<string name="relay1Label">Relay<sub>1</sub></string>
+	<string name="relay2Label">Relay<sub>2</sub></string>
+	<string name="off">Off</string>
+	<string name="on">On</string>
+	
+	<!-- Options Menu -->
+    <string name="start_log">Get Log Start</string>
+    <string name="end_log">Get Log End</string>
+    <string name="simulate">Simulate</string>
+    <string name="quit">Quit</string>
+    <string name="parameters">Change Parameters</string>
+    <string name="deformation">Change Deformation</string>
+    <string name="texture">Change Texture</string>
+    <string name="delay">Change Delay Speed</string>
+    <string name="hardness">Change Hardness</string>
+    <string name="light">Change Light</string>
+    <string name="perse">Change Perse</string>
+    <string name="alpha">Change Alpha of Texture</string>
+    <string name="hand">Change Hand layer</string>
+    
+    <!-- parameters control bar -->
+    <string name="parameters_control">Control Parameters</string>
+    <!-- deformation control bar -->
+    <string name="deformation_control">Deformation</string>
+    <string name="button_ok">OK!</string>
+    <!-- delay control bar -->
+    <string name="delay_control">Delay</string>
+    
+    <!-- texture control -->
+    <string name="texture_selection">Select Texture</string>
+    <string name="chess">Chess</string>
+    <string name="stone">Stone</string>
+    <string name="sponge">Sponge</string>
+    <string name="meat_soft">Soft Meat</string>
+    <string name="meat_normal">Normal Meat</string>
+    <string name="meat_hard">Hard Meat</string>
+    
+    <!-- hand control -->
+    <string name="hand_selection">Select Hand</string>
+    <string name="none">No Hand</string>
+    <string name="normal_hand">Hand Figure</string>
+    <string name="edge_hand">Hand Edge</string>
+    <string name="shadow_hand">Hand Shadow</string>
+    
+    <!-- message -->
+	<string name="dummy"></string>
+</resources>
